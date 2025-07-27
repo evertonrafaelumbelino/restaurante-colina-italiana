@@ -38,7 +38,7 @@ imgMenu.addEventListener("click", () => {
         menu.style.position = "fixed";
         menu.style.display = "flex";
         menu.style.flexFlow = "column nowrap";
-        menu.style.top = "15%";
+        menu.style.top = "10%";
         menu.style.left = "24%";
         menu.className = "open";
     } else {
