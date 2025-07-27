@@ -1,0 +1,392 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+strong {
+    color: #E9A624;
+}
+
+a, button {
+    background-color: #E9A624;
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 0;
+}
+
+a:hover, button:hover {
+    background-color: #bd881f;
+    color: white;
+}
+
+p.tipoPrato {
+    background-color: #E9A624;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 12px;
+    margin: 10px 0px;
+    width: 60%;
+    text-transform: uppercase;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 80px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.427);
+}
+
+#imgLogo {
+    width: 110px;
+}
+
+#imgMenu {
+    width: 10%;
+}
+
+#menu {
+    display: none;
+    width: 50%;
+}
+
+#menu > a {
+    background-color: white;
+    border-radius: 0;
+    width: 100%;
+}
+
+#menu > a:hover {
+    background-color: #bd881f;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10px 0px 10px;
+    margin-bottom: 50px;
+    max-width: 700px;
+}
+
+section#inicio {
+    max-width: 97.3vw;
+    height: 100vh;
+    padding: 0;
+    background-image: url("../imgs/ambiente-restaurante.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+div#conteudoI {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.584);
+    width: 97.3vw;
+    height: 100%;
+    color: white;
+}
+
+div#textoI {
+    max-width: 700px;
+}
+
+div#textoI > p {
+    margin: 5px 0px 30px 0px;
+}
+
+div#caracIni {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    gap: 0 10px;
+    margin-top: -100px;
+    width: 100%;
+}
+
+div.blocosCaracIni {
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.427);
+}
+
+div.blocosCaracIni > img {
+    width: 50px;
+}
+
+section#sobre > p {
+    margin-bottom: 50px;
+}
+
+div#infoSobre {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.infosSobre {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 260px;
+    padding: 10px;
+    margin: 0px 10px 30px 10px;
+    background-color: #bd7e00;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.427);
+    border-radius: 12px;
+}
+
+div.infosSobre > img {
+    width: 60px;
+}
+
+div#btnsFilterMenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px 30px 0px;
+}
+
+button.btnsFilter {
+    width: 150px;
+    margin: 5px;
+}
+
+button.btnsFilter.on {
+    background-color: #bd881f;
+    color: white;
+}
+
+div#blocosPratos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div#blocosPratos > div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 20px 10px;
+    width: 220px;
+    height: 370px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.427);
+    border-radius: 12px;
+}
+
+div#blocosPratos > div > img {
+    width: 100%;
+    height: 150px;
+}
+
+p.preco {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffb92c;
+    margin-top: 10px;
+}
+
+div#blocosOfertas {
+    display: flex;
+    flex-flow:  column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+img#setaEsquerda {
+    position: absolute;
+    left: 1%;
+    width: 20%;
+}
+
+img#setaDireita {
+    position: absolute;
+    left: 80%;
+    width: 20%;
+}
+
+img#setaDireita:hover, img#setaEsquerda:hover {
+    cursor: pointer;
+}
+
+div#oferta2, div#oferta3 {
+    display: none;
+}
+
+div.ofertasE {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.427);
+}
+
+div.ofertasE > img {
+    width: 100%;
+}
+
+p.precoAntigo {
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-top: 10px;
+}
+
+p.precoDesconto {
+    color: #ffb92c;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div.ofertasE > a {
+    margin-bottom: 20px;
+}
+
+div#blocoChefs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.blocosChefs {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 20px 10px;
+    width: 200px;
+    height: 430px;
+    padding: 0px 10px 10px 10px;
+    background-color: #ffb92c;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.427);
+    border-radius: 12px;
+}
+
+div.blocosChefs > img {
+    width: 111%;
+    height: 250px;
+}
+
+div.blocosChefs > h3 {
+    margin: 5px 0px;
+}
+
+div#formularioPedido {
+    margin: 50px 0px;
+    padding: 10px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.427);
+    border-radius: 12px;
+    width: 70%;
+}
+
+div#formularioPedido > form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    background-color: whitesmoke;
+    color: black;
+    height: 40px;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 6px;
+    border: 1px solid #E9A624;
+    border-radius: 12px;
+}
+
+textarea {
+    height: 60px;
+}
+
+input:hover, textarea:hover {
+    background-color: #E9A624;
+    border: 2px solid black;
+}
+
+input#enviarPedido {
+    background-color: #E9A624;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+}
+
+input#enviarPedido:hover {
+    background-color: #bd881f;
+    color: white;
+}
+
+div#resultadoForm > p {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 100%;
+}

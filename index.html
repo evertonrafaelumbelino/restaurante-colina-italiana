@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colina Italiana</title>
+
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/tablet.css">
+    <link rel="stylesheet" href="assets/css/desktop.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="assets/imgs/logo-colina-italiana.png" alt="Logo do restaurante Colina Italiana" id="imgLogo">
+
+        <img src="assets/imgs/icon-menu.png" alt="Imagem de botão do menu" id="imgMenu">
+
+        <menu id="menu" class="close">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#sectMenu">Menu</a>
+            <a href="#ofertas">Ofertas</a>
+            <a href="#chefs">Chefs</a>
+            <a href="#contato">Contato</a>
+        </menu>
+
+        <a href="#contato">Fazer pedido</a>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div id="conteudoI">
+                <div id="textoI">
+                    <h1>Sabores e aromas direto das <strong>colinas italianas</strong></h1>
+                    <p>Do aroma do forno ao frescor dos ingredientes, cada detalhe foi pensado para oferecer uma experiência memorável, acolhedora, elegante e com o verdadeiro sabor da Itália.</p>
+                    <a href="#sectMenu">Ver menu</a>
+                </div>
+            </div>
+        </section>
+
+        <div id="caracIni">
+            <div class="blocosCaracIni">
+                <img src="assets/imgs/icon-bandeja-comida.png" alt="Icone de bandeja de comida">
+
+                <p>Comida deliciosa</p>
+            </div>
+
+            <div class="blocosCaracIni">
+                <img src="assets/imgs/icon-cozinheiro.png" alt="Icone de um cozinheiro">
+
+                <p>Serviço profissional</p>
+            </div>
+
+            <div class="blocosCaracIni">
+                <img src="assets/imgs/icon-livro-menu.png" alt="Icone de um livro de menu">
+
+                <p>Excelente menu</p>
+            </div>
+        </div>
+
+        <section id="sobre">
+            <h2>Sobre o restaurante</h2>
+
+            <p>Onde a tradição italiana encontra o sabor autêntico.</p>
+
+            <div id="infoSobre">
+                <div class="infosSobre">
+                    <img src="assets/imgs/icon-prato-talheres.png" alt="Icone de um prato com talheres">
+
+                    <h3>Sabores autênticos da Itália.</h3>
+
+                    <p>Nossos pratos são preparados com receitas tradicionais italianas, garantindo um verdadeiro sabor em cada garfada.</p>
+                </div>
+
+                <div class="infosSobre">
+                    <img src="assets/imgs/icon-ingrediente-fresco.png" alt="Icone de um hostelã como ingrediente fresco">
+
+                    <h3>Ingredientes frescos</h3>
+
+                    <p>Selecionamos ingredientes frescos e de alta qualidade todos os dias para oferecer refeições saudáveis, saborosas e inesquecíveis.</p>
+                </div>
+
+                <div class="infosSobre">
+                    <img src="assets/imgs/icon-mesa-restaurante.png" alt="Icone de uma pessoa sentada na mesa de um restaurante">
+
+                    <h3>Ambiente acolhedor</h3>
+
+                    <p>Nosso espaço foi pensado para proporcionar conforto e boas memórias para cada cliente presente.</p>
+                </div>
+
+                <div class="infosSobre">
+                    <img src="assets/imgs/icon-bandeira-italia.png" alt="Icone da bandeira da itália com outro estilo">
+
+                    <h3>Tradição italiana</h3>
+
+                    <p>Celebramos a herança italiana com orgulho, respeitando suas tradições culinárias e cultura em cada detalhe do nosso restaurante.</p>
+                </div>
+
+                <div class="infosSobre">
+                    <img src="assets/imgs/icon-coracao.png" alt="Icone de um coração">
+
+                    <h3>Paixão pela culinária</h3>
+
+                    <p>Mais do que comida, servimos amor em forma de prato. Nossa equipe coloca dedicação e carinho em cada receita preparada.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sectMenu">
+            <h2>Menu</h2>
+
+            <div id="btnsFilterMenu">
+                <button type="button" class="btnsFilter on" id="btnTodos">Todos</button>
+
+                <button type="button" class="btnsFilter off" id="btnMassas">Massas</button>
+                
+                <button type="button" class="btnsFilter off" id="btnPizzas">Pizzas</button>
+                
+                <button type="button" class="btnsFilter off" id="btnCarnesPeixes">Carnes & Peixes</button>
+                
+                <button type="button" class="btnsFilter off" id="btnEntradas">Entradas</button>
+                
+                <button type="button" class="btnsFilter off" id="btnSobremesas">Sobremesas</button>
+            </div>
+
+            <div id="blocosPratos">
+                <div class="massas" id="pratoM1">
+                    <img src="assets/imgs/espaguete-carbonara.jpg" alt="Imagem de um Espaguete à Carbonara – Spaghetti alla Carbonara">
+
+                    <p class="tipoPrato">Massa</p>
+
+                    <h3>Espaguete à Carbonara</h3>
+
+                    <p>Massa envolta em molho de ovos, queijo, pancetta e toque de pimenta, tradicional e irresistível.</p>
+
+                    <p class="preco">R$ 59</p>
+                </div>
+
+                <div class="massas" id="pratoM2">
+                    <img src="assets/imgs/fettuccine-alfredo.jpg" alt="Imagem de um Fettuccine Alfredo">
+
+                    <p class="tipoPrato">Massa</p>
+
+                    <h3>Fettuccine Alfredo</h3>
+
+                    <p>Fettuccine no clássico molho de manteiga e parmesão, cremoso, suave e cheio de sabor italiano.</p>
+
+                    <p class="preco">R$ 52</p>
+                </div>
+
+                <div class="massas" id="pratoM3">
+                    <img src="assets/imgs/lasanha-bolonhesa.jpg" alt="Imagem de uma Lasanha à Bolonhesa – Lasagna alla Bolognese">
+
+                    <p class="tipoPrato">Massa</p>
+
+                    <h3>Lasanha à Bolonhesa</h3>
+
+                    <p>Camadas de massa, ragu de carne e molho branco gratinado, receita clássica com sabor marcante.</p>
+
+                    <p class="preco">R$ 65</p>
+                </div>
+
+                <div class="pizzas" id="pratoP1">
+                    <img src="assets/imgs/pizza-margherita.jpg" alt="Imagem de uma Pizza Margherita">
+
+                    <p class="tipoPrato">Pizza</p>
+
+                    <h3>Pizza Margherita</h3>
+
+                    <p>Tomate, muçarela de búfala e manjericão fresco em uma pizza leve, elegante e muito saborosa.</p>
+
+                    <p class="preco">R$ 48</p>
+                </div>
+
+                <div class="pizzas" id="pratoP2">
+                    <img src="assets/imgs/pizza-quatro-queijos.avif" alt="Imagem de uma Pizza Quatro Queijos – Pizza Quattro Formaggi">
+
+                    <p class="tipoPrato">Pizza</p>
+
+                    <h3>Pizza Quatro Queijos</h3>
+
+                    <p>Mistura cremosa de muçarela, gorgonzola, parmesão e provolone. Um sabor rico e equilibrado.</p>
+
+                    <p class="preco">R$ 58</p>
+                </div>
+
+                <div class="pizzas" id="pratoP3">
+                    <img src="assets/imgs/pizza-presunto-rucula.jpg" alt="Imagem de uma Pizza de Presunto Cru com Rúcula – Pizza Prosciutto e Rucola">
+
+                    <p class="tipoPrato">Pizza</p>
+
+                    <h3>Pizza de Presunto Cru com Rúcula</h3>
+
+                    <p>Presunto cru italiano e rúcula fresca sobre base de muçarela. Sabor refinado e harmonioso.</p>
+
+                    <p class="preco">R$ 62</p>
+                </div>
+
+                <div class="carnesPeixes" id="pratoCP1">
+                    <img src="assets/imgs/ossobuco-milanesa.jpg" alt="Imagem de um Ossobuco à Milanesa – Ossobuco alla Milanese">
+
+                    <p class="tipoPrato">Carnes & peixes</p>
+
+                    <h3>Ossobuco à Milanesa</h3>
+
+                    <p>Vitela cozida lentamente em vinho e legumes, com gremolata. Um prato clássico e reconfortante.</p>
+
+                    <p class="preco">R$ 85</p>
+                </div>
+
+                <div class="carnesPeixes" id="pratoCP2">
+                    <img src="assets/imgs/saltimbocca-romana.jpg" alt="Imagem de uma Saltimbocca à Romana – Saltimbocca alla Romana">
+
+                    <p class="tipoPrato">Carnes & peixes</p>
+
+                    <h3>Saltimbocca à Romana</h3>
+
+                    <p>Fatias de vitela com presunto e sálvia no vinho branco. Sabor autêntico da gastronomia romana.</p>
+
+                    <p class="preco">R$ 78</p>
+                </div>
+
+                <div class="carnesPeixes" id="pratoCP3">
+                    <img src="assets/imgs/robalo-assado.jpg" alt="Imagem de um Robalo Assado com Ervas – Branzino al Forno">
+
+                    <p class="tipoPrato">Carnes & peixes</p>
+
+                    <h3>Robalo Assado</h3>
+
+                    <p>Robalo inteiro com ervas, limão e azeite, assado no forno. Um prato leve, fresco e aromático.</p>
+
+                    <p class="preco">R$ 95</p>
+                </div>
+
+                <div class="entradas" id="pratoE1">
+                    <img src="assets/imgs/bruschetta-tomate-manjericão.jpg" alt="Imagem de um Bruschetta de Tomate e Manjericão – Bruschetta al Pomodoro">
+
+                    <p class="tipoPrato">Entrada</p>
+
+                    <h3>Bruschetta de Tomate e Manjericão</h3>
+
+                    <p>Pão crocante com tomate, alho e manjericão fresco, regado com azeite. Simples e delicioso.</p>
+
+                    <p class="preco">R$ 22</p>
+                </div>
+
+                <div class="entradas" id="pratoE2">
+                    <img src="assets/imgs/bolinhos-arroz-recheados.jpg" alt="Imagem de Bolinhos de Arroz Recheados – Arancini di Riso">
+
+                    <p class="tipoPrato">Entrada</p>
+
+                    <h3>Bolinhos de Arroz Recheados</h3>
+
+                    <p>Arancini dourados recheados com queijo e carne. Crocantes por fora, macios por dentro.</p>
+
+                    <p class="preco">R$ 28</p>
+                </div>
+
+                <div class="entradas" id="pratoE3">
+                    <img src="assets/imgs/salada-caprese.jpg" alt="Imagem de uma Salada Caprese – Insalata Caprese">
+
+                    <p class="tipoPrato">Entrada</p>
+
+                    <h3>Salada Caprese</h3>
+
+                    <p>Tomate, muçarela de búfala e manjericão com azeite. Uma entrada leve, fresca e tradicional.</p>
+
+                    <p class="preco">R$ 25</p>
+                </div>
+
+                <div class="sobremesas" id="pratoS1">
+                    <img src="assets/imgs/tiramisu-tradicional.jpg" alt="Imagem de um Tiramisù Tradicional – Tiramisù">
+
+                    <p class="tipoPrato">Sobremesa</p>
+
+                    <h3>Tiramisù Tradicional</h3>
+
+                    <p>Camadas de biscoito embebido em café com creme mascarpone. Doce equilibrado e elegante.</p>
+
+                    <p class="preco">R$ 32</p>
+                </div>
+
+                <div class="sobremesas" id="pratoS2">
+                    <img src="assets/imgs/panna-cotta-frutas-vermelhas.jpg" alt="Imagem de uma Panna Cotta com Frutas Vermelhas – Panna Cotta ai Frutti di Bosco">
+
+                    <p class="tipoPrato">Sobremesa</p>
+
+                    <h3>Panna Cotta com Frutas Vermelhas</h3>
+
+                    <p>Creme leve de baunilha servido com calda ácida de frutas vermelhas. Doce suave e refinado.</p>
+
+                    <p class="preco">R$ 30</p>
+                </div>
+
+                <div class="sobremesas" id="pratoS3">
+                    <img src="assets/imgs/cannoli-siciliano.jpg" alt="Imagem de um Cannoli Siciliano – Cannoli Siciliani">
+
+                    <p class="tipoPrato">Sobremesa</p>
+
+                    <h3>Cannoli Siciliano</h3>
+
+                    <p>Massa crocante com recheio doce de ricota e frutas cristalizadas. Texturas que encantam.</p>
+
+                    <p class="preco">R$ 34</p>
+                </div>
+            </div>
+
+            <a href="#contato">Fazer pedido</a>
+        </section>
+
+        <section id="ofertas">
+            <h2>Ofertas especiais</h2>
+
+            <p>Descubra os sabores exclusivos que selecionamos para hoje.</p>
+
+            <div id="blocosOfertas">
+                <img src="assets/imgs/seta-esquerda.png" alt="Imagem de uma seta apontando para esquerda" id="setaEsquerda">
+
+                <img src="assets/imgs/seta-direita.png" alt="Imagem de uma seta apontando para direita" id="setaDireita">
+
+                <div id="oferta1" class="ofertasE" style="display: flex;">
+                    <img src="assets/imgs/carne-fatiada-alecrim.jpg" alt="Imagem de uma Carne fatiada com alecrim - Tagliata di Manzo al Rosmarino em oferta especial">
+
+                    <p class="tipoPrato">Carnes & peixes</p>
+
+                    <h3>Carne fatiada com alecrim</h3>
+
+                    <p>Cortes de carne bovina grelhados ao ponto, servidos com azeite aromatizado e ramos de alecrim fresco.</p>
+
+                    <p class="precoAntigo">R$ 72,00</p>
+                    <p class="precoDesconto">R$ 59,90</p>
+
+                    <a href="">Fazer pedido</a>
+                </div>
+
+                <div id="oferta2" class="ofertasE">
+                    <img src="assets/imgs/espaguete-limão-camarão.jpg" alt="Imagem de um Espaguete com Limão e Camarão - Spaghetti al Limone e Gamberi em oferta especial">
+
+                    <p class="tipoPrato">Massa</p>
+
+                    <h3>Espaguete com Limão e Camarão</h3>
+
+                    <p>Spaghetti, com molho cremoso de limão siciliano e camarões salteados.</p>
+
+                    <p class="precoAntigo">R$ 49,00</p>
+                    <p class="precoDesconto">R$ 39,95</p>
+
+                    <a href="">Fazer pedido</a>
+                </div>
+
+                <div id="oferta3" class="ofertasE">
+                    <img src="assets/imgs/cannoli-ciciliano-chocolate.jpg" alt="Imagem de um Cannoli Siciliano com Chocolate - Cannoli Siciliano con Cioccolato em oferta especial">
+
+                    <p class="tipoPrato">Sobremesa</p>
+
+                    <h3>Cannoli Siciliano com Chocolate</h3>
+
+                    <p>Cannoli com recheio de ricota adoçada com toque de laranja, finalizado com cobertura de chocolate amargo derretido.</p>
+
+                    <p class="precoAntigo">R$ 26,00</p>
+                    <p class="precoDesconto">R $19,90</p>
+
+                    <a href="">Fazer pedido</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="chefs">
+            <h2>Chefs da cozinha</h2>
+
+            <div id="blocoChefs">
+                <div class="blocosChefs">
+                    <img src="assets/imgs/chef1.jpg" alt="Imagem do chef Matteo Ricci">
+
+                    <h3>Matteo Ricci</h3>
+
+                    <p>Natural de Florença, Matteo é mestre nos risotos italianos e traduz com precisão os sabores autênticos da culinária do norte da Itália.</p>
+                </div>
+
+                <div class="blocosChefs">
+                    <img src="assets/imgs/chef2.jpg" alt="Imagem do chef Lorenzo Vitale">
+
+                    <h3>Lorenzo Vitale</h3>
+
+                    <p>Com mais de 20 anos de experiência, Lorenzo é referência em massas frescas, trazendo à mesa o verdadeiro sabor da tradição italiana.</p>
+                </div>
+                
+                <div class="blocosChefs">
+                    <img src="assets/imgs/chef3.jpg" alt="Imagem chefe de cozinha">
+
+                    <h3>Isabella Romano</h3>
+
+                    <p>Especialista em sobremesas clássicas, Isabella combina tradição e delicadeza, criando doces que conquistam o paladar e emocionam o cliente.</p>
+                </div>
+
+                <div class="blocosChefs">
+                    <img src="assets/imgs/chef4.jpg" alt="Imagem chefe de cozinha">
+
+                    <h3>Enzo Moretti</h3>
+
+                    <p>Criativo e refinado, Enzo une a técnica italiana com inovação, criando pratos que encantam e chamam a atenção tanto pelo sabor quanto pela apresentação.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em contato</h2>
+
+            <p>Tem alguma dúvida ou deseja fazer uma reserva? Fale conosco pelos canais abaixo ou envie uma mensagem pelo formulário.</p>
+
+            <div id="formularioPedido">
+                <form>
+                    <label for="nome"><p>Nome do cliente:</p></label>
+                    <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
+                    
+                    <label for="telefone"><p>Telefone:</p></label>
+                    <input type="tel" name="telefone" id="telefone" required placeholder="Digite seu número">
+
+                    <label for="pedido"><p>Pedido:</p></label>
+                    <textarea name="pedido" id="pedido" required placeholder="Digite seu pedido"></textarea>
+
+                    <a href="#footer" id="enviarPedido">Enviar pedido</a>
+
+                    <div id="resultadoForm">
+
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>© 2025 Colina Italiana.
+        Site desenvolvido por Everton Rafael</p>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
